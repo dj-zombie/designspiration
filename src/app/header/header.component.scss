@@ -1,0 +1,14 @@
+.app-header {
+	display: flex; 
+	align-items: center; 
+	padding: 5px 35px;
+
+	.logo {
+		flex: 1;
+	}
+
+	.nav {
+		flex: 1; 
+		text-align: right;
+	}
+}

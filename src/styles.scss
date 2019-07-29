@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button {
+  background: #F6F6F6;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -.38px;
+  border-radius: 4px;
+  padding: 9px 12px 10px;
+  color: #444;
+  border: none;
+  margin: 5px;
+  min-height: 30px;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #1d8ffb;
+  color: #fff;
+}
+
+button.more {
+  border-radius: 50%;
+  padding-top: 3px;
+  min-height: 40px;
+}
+
+.app-carousel .featured {
+  background: #F6F6F6;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.app-carousel .slick-prev {
+  left: 25px;
+  z-index: 3;
+}
+.app-carousel .slick-next::before,
+.app-carousel .slick-prev::before {
+  font-size: 32px;
+}
+.app-carousel .slick-next {
+  right: 25px;
+}
+
